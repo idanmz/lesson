@@ -1,0 +1,39 @@
+body{
+    background: lightgreen;
+}
+.main{
+    position: relative;
+    float: left;
+    left: 500px;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.main i{
+    font-size: 50px;
+    color: white;
+}
+
+.main::before{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    float: left;
+    background: white;
+    top: 20px;
+    right: 60px;
+}
+
+.main::after{
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    float: left;
+    background:  white;
+    left: 60px;  
+    top: 20px;
+}
